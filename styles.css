@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+
+main{
+
+    display: flex;
+    gap: 2rem;
+    background-color: #dccfba;
+}
+/* ---------------------------------------------------------------*/
+
+section{
+    border: 1px solid #dccfba;
+    flex: 1;
+
+}
+
+header{
+    background-color: #dccfba;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+ul li span{
+    font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------*/
+
+
+#appetizers{
+    flex: 2;
+    background-color: red;
+}
+
+#soup-salad{
+    flex: 2;
+    background-color: orange;
+}
+
+#mains{
+    flex: 2;
+    background-color: yellow;
+}
+
+#drinks{
+    flex: 2;
+    background-color: greenyellow;
+}
+
+#pizza{
+    flex: 2;
+    background-color: green;
+}
+
+#desserts{
+    flex: 2;
+    background-color: aquamarine;
+}
+
+/* ---------------------------------------------------------------*/
+
+
+
